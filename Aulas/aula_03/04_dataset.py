@@ -21,4 +21,5 @@ valor_mais_caro
 missoes_mais_caras = dt[1:, 6].astype(float) == valor_mais_caro
 missoes_mais_caras = np.append(np.array([False]), missoes_mais_caras)
 # %%
-dt[missoes_mais_caras]
+dt[missoes_mais_caras and dt[dt[:, 1] == "SpaceX"]]
+# %%
