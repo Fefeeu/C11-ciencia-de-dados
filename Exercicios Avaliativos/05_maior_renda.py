@@ -6,7 +6,9 @@ dt = np.loadtxt("data/paises.csv",
                 dtype=str,
                 encoding='utf-8')
 
-maior_renda = dt[1:,8].astype(float).max()
+america_sul_caribe = (np.char.find(dt[:,1], "LATIN AMER. & CARIB") >= 0) 
+
+maior_renda = dt[:,8][america_sul_caribe].astype(float).max()
 
 pais_maior_renda = dt[1:][dt[1:,8].astype(float) == maior_renda]
 
