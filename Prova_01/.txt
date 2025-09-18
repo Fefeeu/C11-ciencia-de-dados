@@ -1,0 +1,14 @@
+Questão 1 
+Mostre qual a média de idade dos homens presentes neste dataset;
+
+Questão 2
+Mostre quantos clientes gastaram mais que a média de gastos das compras deste dataset;
+
+Questão 3
+Mostre qual é a porcentagem de vendas do item menos vendido da loja;
+
+Questão 4
+Mostre qual a porcentagem de vendas que tiveram algum tipo de desconto;
+
+Questão 5
+Mostre qual a cor de roupa mais popular no verão segundo este dataset.
